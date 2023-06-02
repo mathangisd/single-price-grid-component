@@ -82,6 +82,14 @@ small, .text-small {font-size: 0.8rem;}
     color: var(--white);
     padding: 1rem
 }
+
+main {
+    display: grid;
+}
+footer {
+    margin-top: 1rem;
+    justify-self: center;
+}
 /* 
 =====================================
 Card
@@ -91,15 +99,17 @@ Card
     display: grid;
     min-height: 100vh;
     place-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    padding-top: 2rem;
+    grid-template-rows: repeat(3, max-content);
 }
 
 
 .card {
     width: 350px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 0 1.5rem 1rem;   
-    box-shadow: 2px 10px 25px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); 
 }
 
 
