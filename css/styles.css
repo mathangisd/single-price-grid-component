@@ -97,6 +97,14 @@ footer {
     margin-top: 1rem;
     justify-self: center;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(26, 91%, 57%);
+}
 /* 
 =====================================
 Card
