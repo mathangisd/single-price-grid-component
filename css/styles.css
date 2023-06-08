@@ -29,7 +29,7 @@ box-sizing: border-box;
 html {font-size: 100%;} /*16px*/
 
 body {
-    background: var(--white);
+    background: var(--light-gray);
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     line-height: 1.75;
@@ -130,6 +130,7 @@ Card
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); 
+    background: var(--white);
     
 }
 
