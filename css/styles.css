@@ -22,7 +22,7 @@ box-sizing: border-box;
     --grayishblue: hsl(218, 22%, 67%);
     --white: hsl(0, 0%, 100%);
 
-    --border-radius: 0.25rem;
+    --border-radius: 0.45rem;
 
 }
 
@@ -113,15 +113,15 @@ Card
 
 
 .card {
-    width: 318px;
+    max-width: 318px;
     padding: 0 1.5rem 1rem;   
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); 
 
 }
 
 .card:nth-of-type(1){
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); 
     
 }
 
@@ -256,7 +256,7 @@ Media query
     .monthly-card h2, .why-card h2 {
         font-size: large;
         padding-top: 1.2rem;
-        padding-left: 1rem;
+        padding-left: 0.5rem;
     }
     .monthly-card .btn {
         width: 88%;
